@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Oswald;
+    src: url(../fonts/Oswald.ttf);
+}
+
+.maincarousel{
+    background-color: #ffffff5d;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: Oswald, sans-serif;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn:hover{
+    color: #7e7c7c;
+}
+
+.btn-carousel{
+    font-size: 50px;
+}
+
+footer{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
