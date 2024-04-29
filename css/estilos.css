@@ -237,3 +237,13 @@ footer a{
 .contacto-info a:hover{
     color: #333;
 }
+
+.cajas{
+    padding: 10px;
+    margin: 15px;
+}
+
+.datos-user{
+    justify-content: space-around;
+    border-radius: 10px;
+}
