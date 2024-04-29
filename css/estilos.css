@@ -245,5 +245,6 @@ footer a{
 
 .datos-user{
     justify-content: space-around;
-    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 45px;
 }
