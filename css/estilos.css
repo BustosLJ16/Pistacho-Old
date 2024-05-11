@@ -1,249 +1,247 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@font-face{
-    font-family: Oswald;
-    src: url(../fonts/Oswald.ttf);
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald.ttf);
+}
+body {
+  background-color: #a4b698;
 }
 
-body{
-    background-color: #a4b698;
+.call-carousel {
+  background-color: rgba(255, 255, 255, 0.3647058824);
+  border-radius: 10px;
+  justify-content: center;
+  font-family: Oswald, sans-serif;
+  text-shadow: 0 0 15px #444;
 }
 
-.call-carousel{
-    background-color: #ffffff5d;
-    border-radius: 10px;
-    justify-content: center;
-    font-family: Oswald, sans-serif;
-    text-shadow: 0 0 15px #444;
+.call-carousel h5 {
+  color: black;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
-.call-carousel h5{
-    color: black;
-    font-size: 30px;
-    padding-bottom: 10px;
+.call-carousel p {
+  color: black;
+  font-size: 14px;
 }
 
-.call-carousel p{
-    color: black;
-    font-size: 20px;
+.btn {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 5px;
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
 }
 
-.btn{
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 5px;
-    background-color: #000;
-    border-radius: 10px;
-    color: #fff;
+.btn:hover {
+  color: #7e7c7c;
 }
 
-.btn:hover{
-    color: #7e7c7c;
+.btn-carousel {
+  font-size: 50px;
 }
 
-.btn-carousel{
-    font-size: 50px;
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
-footer{
-    background-color: #000;
-    color: white;
-    text-align: center;
-    padding: 10px;
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 10px;
 }
 
-footer a{
-    color: white;
-    text-decoration: none;
-    font-size: 40px;
-    letter-spacing: 10px;
+.card-body {
+  margin-top: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3647058824);
 }
 
-.card-body{
-    margin-top: 10px;
-    border: 1px solid #000;
-    border-radius: 10px;
-    background-color: #ffffff5d;
+.card-title {
+  font-size: 30px;
 }
 
-.card-title{
-    font-size: 30px;
+.card-desc {
+  font-size: 25px;
 }
 
-.card-desc{
-    font-size: 25px;
+.titulo {
+  text-align: center;
+  background-color: #a4b698;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-size: 50px;
+  font-family: oswald, sans-serif;
 }
 
-.titulo{
-    text-align: center;
-    background-color: #a4b698;
-    padding: 20px;
-    color: #fff;
-    text-shadow: 0 0 5px #000;
-    font-size: 50px;
-    font-family: oswald, sans-serif;
+.desc {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-family: oswald, sans-serif;
 }
 
-.desc{
-    font-size: 20px;
-    color: #fff;
-    text-shadow: 0 0 5px #000;
-    font-family: oswald, sans-serif;
+.prod-body {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3647058824);
 }
 
-.prod-body{
-    margin-top: 10px;
-    border-radius: 10px;
-    background-color: #ffffff5d;
+.product {
+  padding: 80px 0;
 }
 
-.product{
-    padding: 80px 0;
+.product img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
 }
 
-.product img{
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
+.nosotros {
+  padding-bottom: 15px;
 }
 
-.nosotros{
-    padding-bottom: 15px;
+.nosotros-title {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 50px;
+  font-family: oswald, sans-serif;
 }
 
-.nosotros-title{
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    text-shadow: 0 0 15px #000;
-    font-size: 50px;
-    font-family: oswald, sans-serif;
+.nosotros-desc {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
 }
 
-.nosotros-desc{
-    font-size: 25px;
-    color: #fff;
-    text-shadow: 0 0 15px #000;
-    font-family: oswald, sans-serif;
+.nosotros-bg {
+  background-image: url(../assets/bg-pistacho.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 500px;
 }
 
-.nosotros-bg{
-    background-image: url(../assets/bg-pistacho.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-    height: 500px;
+.nosotros-info {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.3647058824);
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
 }
 
-.nosotros-info{
-    width: 400px;
-    background-color: #ffffff5d;
-    border: 2px solid #000;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
+.nosotros-info h3 {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 35px;
 }
 
-.nosotros-info h3{
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    font-size: 35px;
+.nosotros-info p {
+  font-size: 25px;
 }
 
-.nosotros-info p{
-    font-size: 25px;
+.nosotros-info ul {
+  list-style-type: none;
 }
 
-.nosotros-info ul{
-    list-style-type: none;
+.nosotros-info a {
+  color: #000;
+  font-size: 35px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 7px;
 }
 
-.nosotros-info a{
-    color: #000;
-    font-size: 35px;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 7px;
+.nosotros-info a:hover {
+  color: #333;
 }
 
-.nosotros-info a:hover{
-    color: #333;
+.contacto {
+  padding-bottom: 15px;
 }
 
-
-.contacto{
-    padding-bottom: 15px;
+.contacto-title {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 50px;
+  font-family: oswald, sans-serif;
 }
 
-.contacto-title{
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    text-shadow: 0 0 15px #000;
-    font-size: 50px;
-    font-family: oswald, sans-serif;
+.contacto-desc {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
 }
 
-.contacto-desc{
-    font-size: 25px;
-    color: #fff;
-    text-shadow: 0 0 15px #000;
-    font-family: oswald, sans-serif;
+.contacto-bg {
+  background-image: url(../assets/bg-contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 500px;
 }
 
-.contacto-bg{
-    background-image: url(../assets/bg-contacto.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-    height: 500px;
+.contacto-info {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.3647058824);
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
 }
 
-.contacto-info{
-    width: 400px;
-    background-color: #ffffff5d;
-    border: 2px solid #000;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px;
+.contacto-info h3 {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 35px;
 }
 
-.contacto-info h3{
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    font-size: 35px;
+.contacto-info p {
+  font-size: 25px;
 }
 
-.contacto-info p{
-    font-size: 25px;
+.contacto-info ul {
+  list-style-type: none;
 }
 
-.contacto-info ul{
-    list-style-type: none;
+.contacto-info a {
+  color: #000;
+  font-size: 35px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 7px;
 }
 
-.contacto-info a{
-    color: #000;
-    font-size: 35px;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 7px;
+.contacto-info a:hover {
+  color: #333;
 }
 
-.contacto-info a:hover{
-    color: #333;
+.cajas {
+  padding: 10px;
+  margin: 15px;
 }
 
-.cajas{
-    padding: 10px;
-    margin: 15px;
-}
-
-.datos-user{
-    justify-content: space-around;
-    border-radius: 10px;
-}
+.datos-user {
+  justify-content: space-around;
+  border-radius: 10px;
+}/*# sourceMappingURL=estilos.css.map */
