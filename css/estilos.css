@@ -5,33 +5,48 @@
 }
 
 @font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+  font-family: HelloHoney;
+  src: url(../fonts/hello\ honey.otf);
+}
+@font-face {
   font-family: Oswald;
   src: url(../fonts/Oswald.ttf);
 }
-body {
-  background-color: #a4b698;
+@font-face {
+  font-family: PoetsenOne;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: SedanSC;
+  src: url(../fonts/SedanSC-Regular.ttf);
+}
+.categoria-title {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 50px;
+  font-family: oswald, sans-serif;
 }
 
-.call-carousel {
-  background-color: rgba(255, 255, 255, 0.3647058824);
-  border-radius: 10px;
-  justify-content: center;
-  font-family: Oswald, sans-serif;
-  text-shadow: 0 0 15px #444;
+.categoria-desc {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
 }
 
-.call-carousel h5 {
-  color: black;
-  font-size: 20px;
-  padding-bottom: 10px;
-}
-
-.call-carousel p {
-  color: black;
-  font-size: 14px;
+.carousel-item img {
+  height: 700px;
+  width: 100%;
 }
 
 .btn {
+  font-family: Cinzel;
   text-decoration: none;
   font-size: 20px;
   margin-top: 5px;
@@ -39,27 +54,25 @@ body {
   border-radius: 10px;
   color: #fff;
 }
-
 .btn:hover {
   color: #7e7c7c;
 }
 
-.btn-carousel {
-  font-size: 50px;
+.call-carousel {
+  background-color: rgba(255, 255, 255, 0.3647058824);
+  border-radius: 10px;
+  justify-content: center;
+  font-family: Cinzel;
+  text-shadow: 0 0 15px #444;
 }
-
-footer {
-  background-color: #000;
-  color: white;
-  text-align: center;
-  padding: 10px;
+.call-carousel h5 {
+  color: #000;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
-
-footer a {
-  color: white;
-  text-decoration: none;
-  font-size: 40px;
-  letter-spacing: 10px;
+.call-carousel p {
+  color: #000;
+  font-size: 20px;
 }
 
 .card-body {
@@ -71,27 +84,58 @@ footer a {
 
 .card-title {
   font-size: 30px;
+  font-family: Cinzel;
 }
 
 .card-desc {
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.titulo {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+  font-family: HelloHoney;
+  src: url(../fonts/hello\ honey.otf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald.ttf);
+}
+@font-face {
+  font-family: PoetsenOne;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: SedanSC;
+  src: url(../fonts/SedanSC-Regular.ttf);
+}
+.categoria-title {
   text-align: center;
-  background-color: #a4b698;
   padding: 20px;
   color: #fff;
-  text-shadow: 0 0 5px #000;
+  text-shadow: 0 0 15px #000;
   font-size: 50px;
-  font-family: oswald, sans-serif;
+  font-family: Oswald;
 }
 
-.desc {
-  font-size: 20px;
+.categoria-desc {
+  font-size: 25px;
   color: #fff;
-  text-shadow: 0 0 5px #000;
-  font-family: oswald, sans-serif;
+  text-shadow: 0 0 15px #000;
+  font-family: Oswald;
+}
+
+.tyd-bg {
+  background-color: rgba(0, 0, 0, 0.4431372549);
+  border-radius: 10px;
 }
 
 .prod-body {
@@ -99,22 +143,74 @@ footer a {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.3647058824);
 }
+.prod-body .prod-title {
+  font-family: PoetsenOne;
+}
+.prod-body p {
+  font-family: Oswald;
+}
 
 .product {
   padding: 80px 0;
 }
-
+.product .prod-titulo {
+  font-family: HelloHoney;
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+}
+.product .prod-desc {
+  font-family: SedanSC;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+}
+.product .categoria-prod {
+  font-family: SedanSC;
+  text-align: center;
+  font-size: 70px;
+}
 .product img {
   width: 250px;
   height: 250px;
   border-radius: 10px;
 }
-
-.nosotros {
-  padding-bottom: 15px;
+.product .prod {
+  transition: all 0.7s;
+  filter: grayscale(70%);
+}
+.product .prod:hover {
+  filter: grayscale(0%);
+  transform: scale(1.09);
 }
 
-.nosotros-title {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+  font-family: HelloHoney;
+  src: url(../fonts/hello\ honey.otf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald.ttf);
+}
+@font-face {
+  font-family: PoetsenOne;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: SedanSC;
+  src: url(../fonts/SedanSC-Regular.ttf);
+}
+.categoria-title, .nosotros-banner .nosotros-title {
   text-align: center;
   padding: 20px;
   color: #fff;
@@ -123,61 +219,87 @@ footer a {
   font-family: oswald, sans-serif;
 }
 
-.nosotros-desc {
+.categoria-desc, .nosotros-banner .nosotros-desc {
   font-size: 25px;
   color: #fff;
   text-shadow: 0 0 15px #000;
   font-family: oswald, sans-serif;
 }
 
-.nosotros-bg {
+.nosotros-banner .nosotros-bg {
   background-image: url(../assets/bg-pistacho.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 15px;
-  height: 500px;
+  height: 450px;
 }
 
-.nosotros-info {
+.nosotros {
+  padding-bottom: 15px;
+}
+.nosotros .nosotros-info {
   width: 400px;
   background-color: rgba(255, 255, 255, 0.3647058824);
   border: 2px solid #000;
   border-radius: 10px;
   margin: 20px;
   padding: 10px;
+  transition: all 0.7s;
+  filter: grayscale(70%);
 }
-
-.nosotros-info h3 {
+.nosotros .nosotros-info:hover {
+  filter: grayscale(0%);
+  transform: scale(1.09);
+}
+.nosotros .nosotros-info h3 {
   text-align: center;
-  font-family: Oswald, sans-serif;
+  font-family: SedanSC;
   font-size: 35px;
 }
-
-.nosotros-info p {
+.nosotros .nosotros-info p {
   font-size: 25px;
 }
-
-.nosotros-info ul {
+.nosotros .nosotros-info ul {
   list-style-type: none;
 }
-
-.nosotros-info a {
+.nosotros .nosotros-info a {
   color: #000;
-  font-size: 35px;
+  font-size: 25px;
   text-decoration: none;
   text-align: center;
-  letter-spacing: 7px;
+  letter-spacing: 1px;
+}
+.nosotros .nosotros-info a:hover {
+  color: #7e7c7c;
 }
 
-.nosotros-info a:hover {
-  color: #333;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contacto {
-  padding-bottom: 15px;
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.otf);
 }
-
-.contacto-title {
+@font-face {
+  font-family: HelloHoney;
+  src: url(../fonts/hello\ honey.otf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald.ttf);
+}
+@font-face {
+  font-family: PoetsenOne;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: SedanSC;
+  src: url(../fonts/SedanSC-Regular.ttf);
+}
+.categoria-title, .user-banner .datos-title {
   text-align: center;
   padding: 20px;
   color: #fff;
@@ -186,62 +308,184 @@ footer a {
   font-family: oswald, sans-serif;
 }
 
-.contacto-desc {
+.categoria-desc, .user-banner .datos-desc {
   font-size: 25px;
   color: #fff;
   text-shadow: 0 0 15px #000;
   font-family: oswald, sans-serif;
 }
 
-.contacto-bg {
-  background-image: url(../assets/bg-contacto.jpg);
+.user-banner .datos-bg {
+  background-image: url(../assets/bg-usuario.jpg);
   background-position: center;
   background-size: cover;
-  border-radius: 15px;
-  height: 500px;
-}
-
-.contacto-info {
-  width: 400px;
-  background-color: rgba(255, 255, 255, 0.3647058824);
-  border: 2px solid #000;
   border-radius: 10px;
-  margin: 20px;
-  padding: 10px;
-}
-
-.contacto-info h3 {
-  text-align: center;
-  font-family: Oswald, sans-serif;
-  font-size: 35px;
-}
-
-.contacto-info p {
-  font-size: 25px;
-}
-
-.contacto-info ul {
-  list-style-type: none;
-}
-
-.contacto-info a {
-  color: #000;
-  font-size: 35px;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 7px;
-}
-
-.contacto-info a:hover {
-  color: #333;
-}
-
-.cajas {
-  padding: 10px;
-  margin: 15px;
+  margin-bottom: 40px;
+  height: 450px;
 }
 
 .datos-user {
   justify-content: space-around;
   border-radius: 10px;
+}
+.datos-user .btn-user {
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+.datos-user .btn-user:hover {
+  color: #7e7c7c;
+}
+
+.caja {
+  transition: all 0.7s;
+  filter: grayscale(70%);
+}
+.caja:hover {
+  filter: grayscale(0%);
+  transform: scale(1.09);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+  font-family: HelloHoney;
+  src: url(../fonts/hello\ honey.otf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald.ttf);
+}
+@font-face {
+  font-family: PoetsenOne;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: SedanSC;
+  src: url(../fonts/SedanSC-Regular.ttf);
+}
+.categoria-title, .contacto-banner .contacto-title {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 50px;
+  font-family: oswald, sans-serif;
+}
+
+.categoria-desc, .contacto-banner .contacto-desc {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
+}
+
+.contacto-banner .contacto-bg {
+  background-image: url(../assets/bg-contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 400px;
+}
+
+.contacto {
+  padding-bottom: 15px;
+}
+.contacto .contacto-info {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.3647058824);
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+.contacto .contacto-info h3 {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 35px;
+}
+.contacto .contacto-info p {
+  font-size: 20px;
+}
+.contacto .contacto-info ul {
+  list-style-type: none;
+}
+.contacto .contacto-info a {
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.contacto .contacto-info a:hover {
+  color: #7e7c7c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+  font-family: HelloHoney;
+  src: url(../fonts/hello\ honey.otf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald.ttf);
+}
+@font-face {
+  font-family: PoetsenOne;
+  src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: SedanSC;
+  src: url(../fonts/SedanSC-Regular.ttf);
+}
+.categoria-title {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 50px;
+  font-family: oswald, sans-serif;
+}
+
+.categoria-desc {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-family: oswald, sans-serif;
+}
+
+body {
+  background-color: #a4b698;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 10px;
 }/*# sourceMappingURL=estilos.css.map */

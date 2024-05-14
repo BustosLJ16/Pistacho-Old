@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Importación de fuentes
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.otf);
+}
+
+@font-face {
+    font-family: HelloHoney;
+    src: url(../fonts/hello\ honey.otf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald.ttf);
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: SedanSC;
+    src: url(../fonts/SedanSC-Regular.ttf);
+}
+
+//Variables Fuentes
+$font1: Cinzel;
+$font2: HelloHoney;
+$font3: Oswald;
+$font4: PoetsenOne;
+$font5: SedanSC;
+
+// Variables Backgrounds
+$fondo1: #ffffff5d;
+$fondo2: #000;
+$fondo3: #a4b698;
+$fondo4: #00000071;
+
+// Variables Colores
+$color1: #333;
+$color2: #000;
+$color3: #fff;
+$color4: #7e7c7c;
+
+// Titulos y Desc
+.categoria-title {
+    text-align: center;
+    padding: 20px;
+    color: $color3;
+    text-shadow: 0 0 15px $color2;
+    font-size: 50px;
+    font-family: oswald, sans-serif;
+}
+
+.categoria-desc {
+    font-size: 25px;
+    color: $color3;
+    text-shadow: 0 0 15px $color2;
+    font-family: oswald, sans-serif;
+}
+
+// Nosotros
+.nosotros-banner {
+    .nosotros-title {
+        @extend .categoria-title
+    }
+
+    .nosotros-desc {
+        @extend .categoria-desc
+    }
+
+    .nosotros-bg {
+        background-image: url(../assets/bg-pistacho.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+        height: 450px;
+    }
+}
+
+.nosotros {
+    padding-bottom: 15px;
+
+    .nosotros-info {
+        width: 400px;
+        background-color: $fondo1;
+        border: 2px solid $color2;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 10px;
+        transition: all 0.7s;
+        filter: grayscale(70%);
+    
+        &:hover {
+            filter: grayscale(0%);
+            transform: scale(1.09);
+        }
+
+        h3 {
+            text-align: center;
+            font-family: $font5;
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            color: $color2;
+            font-size: 25px;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: 1px;
+
+            &:hover {
+                color: $color4;
+            }
+        }
+    }
+}

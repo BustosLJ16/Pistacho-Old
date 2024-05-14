@@ -1,9 +1,3 @@
-@use 'index.scss';
-@use 'productos.scss';
-@use 'nosotros.scss';
-@use 'usuario.scss';
-@use 'contacto.scss';
-
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +41,7 @@ $font5: SedanSC;
 $fondo1: #ffffff5d;
 $fondo2: #000;
 $fondo3: #a4b698;
+$fondo4: #00000071;
 
 // Variables Colores
 $color1: #333;
@@ -61,32 +56,72 @@ $color4: #7e7c7c;
     color: $color3;
     text-shadow: 0 0 15px $color2;
     font-size: 50px;
-    font-family: oswald, sans-serif;
+    font-family: $font3;
 }
 
 .categoria-desc {
     font-size: 25px;
     color: $color3;
     text-shadow: 0 0 15px $color2;
-    font-family: oswald, sans-serif;
+    font-family: $font3;
 }
 
-
-// General
-body {
-    background-color: $fondo3;
+// Productos
+.tyd-bg{
+    background-color: $fondo4;
+    border-radius: 10px;
 }
 
-footer {
-    background-color: $color2;
-    color: $color3;
-    text-align: center;
-    padding: 10px;
+.prod-body {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: $fondo1;
 
-    a {
+    .prod-title {
+        font-family: $font4;
+    }
+
+    p {
+        font-family: $font3;
+    }
+}
+
+.product {
+    padding: 80px 0;
+
+    .prod-titulo{
+        font-family: $font2;
+        font-size: 100px;
         color: $color3;
-        text-decoration: none;
-        font-size: 40px;
-        letter-spacing: 10px;
+        text-shadow: 0 0 15px $color2;
+    }
+
+    .prod-desc{
+        font-family: $font5;
+        font-size: 20px;
+        color: $color3;
+        text-shadow: 0 0 15px $color2;
+    }
+
+    .categoria-prod{
+        font-family: $font5;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .prod {
+        transition: all 0.7s;
+        filter: grayscale(70%);
+
+        &:hover {
+            filter: grayscale(0%);
+            transform: scale(1.09);
+        }
     }
 }
