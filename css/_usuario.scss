@@ -90,12 +90,18 @@ $color4: #7e7c7c;
     justify-content: space-around;
     border-radius: 10px;
 
+    .user-title{
+        font-family: $font5;
+        font-size: 30px;
+    }
+
     .btn-user {
         color: $color3;
         background-color: $color2;
         border-radius: 10px;
         padding: 5px;
         text-decoration: none;
+        font-family: $font1;
 
         &:hover {
             color: $color4;

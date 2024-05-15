@@ -65,7 +65,7 @@
   font-family: Cinzel;
   text-shadow: 0 0 15px #444;
 }
-.call-carousel h5 {
+.call-carousel h3 {
   color: #000;
   font-size: 30px;
   padding-bottom: 10px;
@@ -145,6 +145,7 @@
 }
 .prod-body .prod-title {
   font-family: PoetsenOne;
+  font-size: 20px;
 }
 .prod-body p {
   font-family: Oswald;
@@ -251,7 +252,7 @@
   filter: grayscale(0%);
   transform: scale(1.09);
 }
-.nosotros .nosotros-info h3 {
+.nosotros .nosotros-info h2 {
   text-align: center;
   font-family: SedanSC;
   font-size: 35px;
@@ -328,12 +329,17 @@
   justify-content: space-around;
   border-radius: 10px;
 }
+.datos-user .user-title {
+  font-family: SedanSC;
+  font-size: 30px;
+}
 .datos-user .btn-user {
   color: #fff;
   background-color: #000;
   border-radius: 10px;
   padding: 5px;
   text-decoration: none;
+  font-family: Cinzel;
 }
 .datos-user .btn-user:hover {
   color: #7e7c7c;
@@ -409,7 +415,7 @@
   margin: 20px;
   padding: 10px;
 }
-.contacto .contacto-info h3 {
+.contacto .contacto-info h2 {
   text-align: center;
   font-family: Oswald, sans-serif;
   font-size: 35px;

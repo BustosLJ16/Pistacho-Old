@@ -5,3 +5,4 @@
 5. Uso de "Alt" para describir imagenes en caso de links defectuosos o de uso de asistentes de vista.
 6. Implementación de animaciones en caja de usuario y productos.
 7. Agregue nuevas fonts.
+8. Correciones en etiquetas "H" con su correcta jerarquia.
