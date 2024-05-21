@@ -182,7 +182,7 @@
 }
 .product .prod:hover {
   filter: grayscale(0%);
-  transform: scale(1.09);
+  transform: scale(1.02);
 }
 
 * {
@@ -239,7 +239,7 @@
   padding-bottom: 15px;
 }
 .nosotros .nosotros-info {
-  width: 400px;
+  width: 350px;
   background-color: rgba(255, 255, 255, 0.3647058824);
   border: 2px solid #000;
   border-radius: 10px;
@@ -250,15 +250,15 @@
 }
 .nosotros .nosotros-info:hover {
   filter: grayscale(0%);
-  transform: scale(1.09);
+  transform: scale(1.03);
 }
 .nosotros .nosotros-info h2 {
   text-align: center;
   font-family: SedanSC;
-  font-size: 35px;
+  font-size: 25px;
 }
 .nosotros .nosotros-info p {
-  font-size: 25px;
+  font-size: 20px;
 }
 .nosotros .nosotros-info ul {
   list-style-type: none;
@@ -322,7 +322,7 @@
   background-size: cover;
   border-radius: 10px;
   margin-bottom: 40px;
-  height: 450px;
+  height: 400px;
 }
 
 .datos-user {
@@ -351,7 +351,7 @@
 }
 .caja:hover {
   filter: grayscale(0%);
-  transform: scale(1.09);
+  transform: scale(1.01);
 }
 
 * {
@@ -408,12 +408,15 @@
   padding-bottom: 15px;
 }
 .contacto .contacto-info {
-  width: 400px;
+  width: 350px;
   background-color: rgba(255, 255, 255, 0.3647058824);
   border: 2px solid #000;
   border-radius: 10px;
   margin: 20px;
   padding: 10px;
+}
+.contacto .contacto-info .mapa {
+  width: 300px;
 }
 .contacto .contacto-info h2 {
   text-align: center;

@@ -89,12 +89,16 @@ $color4: #7e7c7c;
     padding-bottom: 15px;
 
     .contacto-info {
-        width: 400px;
+        width: 350px;
         background-color: $fondo1;
         border: 2px solid $color2;
         border-radius: 10px;
         margin: 20px;
         padding: 10px;
+
+        .mapa{
+            width: 300px;
+        }
 
         h2 {
             text-align: center;

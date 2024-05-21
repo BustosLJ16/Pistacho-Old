@@ -67,7 +67,7 @@ $color4: #7e7c7c;
 }
 
 //Usuario
-.user-banner{
+.user-banner {
     .datos-title {
         @extend .categoria-title;
     }
@@ -75,13 +75,14 @@ $color4: #7e7c7c;
     .datos-desc {
         @extend .categoria-desc;
     }
+
     .datos-bg {
         background-image: url(../assets/bg-usuario.jpg);
         background-position: center;
         background-size: cover;
         border-radius: 10px;
         margin-bottom: 40px;
-        height: 450px;
+        height: 400px;
     }
 }
 
@@ -90,7 +91,7 @@ $color4: #7e7c7c;
     justify-content: space-around;
     border-radius: 10px;
 
-    .user-title{
+    .user-title {
         font-family: $font5;
         font-size: 30px;
     }
@@ -116,6 +117,6 @@ $color4: #7e7c7c;
 
     &:hover {
         filter: grayscale(0%);
-        transform: scale(1.09);
+        transform: scale(1.01);
     }
 }
