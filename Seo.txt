@@ -6,3 +6,5 @@
 6. Implementación de animaciones en caja de usuario y productos.
 7. Agregue nuevas fonts.
 8. Correciones en etiquetas "H" con su correcta jerarquia.
+9. Agrego animaciones con libreria "Aos" en la sección de Productos y Usuario.
+10. Hago cambios en "Transform" de cajas para que de esa forma no desborde en la vista mobile. 
